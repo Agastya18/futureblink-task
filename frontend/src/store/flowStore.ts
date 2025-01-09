@@ -2,7 +2,8 @@ import { create } from 'zustand';
 import { Node, addEdge, applyNodeChanges, applyEdgeChanges } from 'reactflow';
 import { FlowState } from '../types/flow';
 
-const API_URL = 'http://localhost:3000';
+// const API_URL = 'http://localhost:3000';
+const API_URL = 'https://futureblink-task.onrender.com'
 
 const useFlowStore = create<FlowState>((set, get) => ({
   nodes: [],
