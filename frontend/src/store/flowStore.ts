@@ -1,5 +1,5 @@
 import { create } from 'zustand';
-import { Node, Edge, addEdge, applyNodeChanges, applyEdgeChanges } from 'reactflow';
+import { Node, addEdge, applyNodeChanges, applyEdgeChanges } from 'reactflow';
 import { FlowState } from '../types/flow';
 
 const API_URL = 'http://localhost:3000';

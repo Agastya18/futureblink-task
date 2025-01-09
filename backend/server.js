@@ -3,7 +3,8 @@ import cors from 'cors';
 import dotenv from 'dotenv';
 import { Agenda } from 'agenda';
 import nodemailer from 'nodemailer';
-
+import path from "path";
+const __dirname = path.resolve();
 dotenv.config();
 
 const app = express();
@@ -82,6 +83,12 @@ app.post('/api/save-flow', async (req, res) => {
   } catch (error) {
     res.status(500).json({ error: error.message });
   }
+});
+
+app.use(express.static(path.join(__dirname, "/frontend/dist")));
+
+app.get("*", (req, res) => {
+	res.sendFile(path.join(__dirname, "frontend", "dist", "index.html"));
 });
 
 const PORT = process.env.PORT || 3000;
