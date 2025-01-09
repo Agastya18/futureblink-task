@@ -44,8 +44,8 @@ A visual flowchart-based email marketing sequence designer built with the MERN s
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
-cd email-sequence-designer
+git clone https://github.com/Agastya18/futureblink-task.git
+cd futureblink-task
 ```
 
 2. Install frontend dependencies:
