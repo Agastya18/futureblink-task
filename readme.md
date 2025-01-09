@@ -2,7 +2,9 @@
 
 A visual flowchart-based email marketing sequence designer built with the MERN stack. Design email sequences with a drag-and-drop interface and automate email sending based on custom delays.
 
-![Email Sequence Designer](https://images.unsplash.com/photo-1523966211575-eb4a01e7dd51?auto=format&fit=crop&q=80)
+
+<img width="1456" alt="Screenshot 2025-01-09 at 6 54 54 PM" src="https://github.com/user-attachments/assets/a8b589fe-9981-4ebb-a510-476d6eec5d85" />
+
 
 ## Features
 
